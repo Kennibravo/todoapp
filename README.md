@@ -20,6 +20,8 @@ All passwords are **testuser**
 **Running the Command**
 This command is meant to be run daily but it can be tested by 
 running `php artisan pending-todo:send-reminder` ,
-it checks all pending Todo and check their deadline/due date whether it is today, if it is today then it Queues emails to the Users to remind them.
+it checks all pending Todo and check their deadline/due date whether it is today,
+if it is today then it Queues and send emails to the Users to remind them, you'd have to add your mailtrap details and
+have a Todo due of the current day to test it.
 
 

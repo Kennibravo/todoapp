@@ -42,7 +42,7 @@ class SendReminderOnDeadlineForPendingTodo extends Command
      */
     public function handle()
     {
-        $todos = Todo::whereStatus('pending')
+        Todo::whereStatus('pending')
             ->whereDate('deadline_date', Carbon::today()->toDateString())
             ->each(function ($todo) {
                 SendTodoReminderToUsers::dispatch($todo->user);
