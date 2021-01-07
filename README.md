@@ -13,8 +13,11 @@
 
 **Logging in**
 After logging in, the Bearer Token token should be pasted in the Authorization tab of Postman, after migrating, the database is populated with users.
+
 **email:** test@gmail.com
 **password:** testuser
+
+
 All passwords are **testuser**
 
 **Running the Command**
