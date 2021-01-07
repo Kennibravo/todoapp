@@ -1,7 +1,7 @@
 **A TODO APP by Kehinde Alade using PHP/Laravel**
 
 **Features**
- - User authentication using Tymon's JWT package.
+ - User authentication using Tymon's JWT package, run php artisan jwt:secret.
  - CRUD Todo.
  - Can assign tags to TODOs.
  - A scheduler that runs daily to see if a TODO is due and reminds the User with their email, I used mailtrap.
